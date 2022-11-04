@@ -10,7 +10,7 @@ x = 1200
 y = 720
 
 tela = pygame.display.set_mode((x, y))
-pygame.display.set_caption('Space')
+pygame.display.set_caption('TabuadaEspacial')
 
 bg = pygame.image.load('cenario/fundo.jpg').convert_alpha()
 bg = pygame.transform.scale(bg, (x, y))
